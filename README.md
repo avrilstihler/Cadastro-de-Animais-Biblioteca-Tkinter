@@ -45,15 +45,15 @@ Este código foi criado para cadastrar e exibir animais, com informações sobre
 
 ### 1. Classes Abstratas e Concretas
 
-#### **Classe Animal (Abstrata)**
+- **Classe Animal (Abstrata)**
 
 A classe `Animal` é a base para os outros tipos de animais. Ela contém atributos comuns, como nome e idade, e define métodos para acessar e modificar esses atributos. O método **mostrar()** é abstrato, ou seja, cada classe filha (Cachorro e Gato) deve implementar esse método para exibir as informações dos respectivos animais de maneira personalizada.
 
-#### **Classe Cachorro (Concreta)**
+- **Classe Cachorro (Concreta)**
 
 A classe `Cachorro` herda de `Animal` e adiciona o atributo **porte**. O método **mostrar()** exibe as informações do cachorro, incluindo o porte.
 
-#### **Classe Gato (Concreta)**
+- **Classe Gato (Concreta)**
 
 A classe `Gato` também herda de `Animal` e adiciona o atributo **raça**. O método **mostrar()** exibe as informações do gato, incluindo a raça.
 
