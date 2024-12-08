@@ -1,4 +1,4 @@
-# Cadastro de Animais 🐾🐶🐱 - Biblioteca Tkinter
+# Cadastro de Animais 🐾🐶🐱 
 
 ## Objetivo
 
