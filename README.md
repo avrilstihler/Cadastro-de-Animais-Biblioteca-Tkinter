@@ -43,7 +43,7 @@ Este código foi criado para cadastrar e exibir animais, com informações sobre
 
 ## Estrutura e Funcionamento do Código
 
-### 1. Classes Abstratas e Concretas
+## 1. Classes Abstratas e Concretas
 
 - **Classe Animal (Abstrata)**
 
@@ -51,29 +51,29 @@ A classe `Animal` é a base para os outros tipos de animais. Ela contém atribut
 
 - **Classe Cachorro (Concreta)**
 
-A classe `Cachorro` herda de `Animal` e adiciona o atributo **porte**. O método **mostrar()** exibe as informações do cachorro, incluindo o porte.
+  - A classe `Cachorro` herda de `Animal` e adiciona o atributo **porte**. O método **mostrar()** exibe as informações do cachorro, incluindo o porte.
 
 - **Classe Gato (Concreta)**
 
-A classe `Gato` também herda de `Animal` e adiciona o atributo **raça**. O método **mostrar()** exibe as informações do gato, incluindo a raça.
+  - A classe `Gato` também herda de `Animal` e adiciona o atributo **raça**. O método **mostrar()** exibe as informações do gato, incluindo a raça.
 
-### 2. Função Principal
+## 2. Função Principal
 
 A função principal do código gerencia o fluxo do aplicativo, lidando com o cadastro dos animais e a exibição da lista.
 
-#### a. **Função de Cadastro (cadastrar_animal)**
+  - a. **Função de Cadastro (cadastrar_animal)**
 
 Quando o usuário preenche os campos de nome, idade e detalhe (que pode ser **porte** ou **raça**, dependendo do tipo de animal) e clica no botão **Cadastrar**, a função valida os dados fornecidos. Se estiver tudo correto, um objeto correspondente (Cachorro ou Gato) é criado e adicionado à lista de animais. A lista é então atualizada para refletir o novo cadastro.
 
-#### b. **Função de Atualização (atualizar_lista)**
+  - b. **Função de Atualização (atualizar_lista)**
 
 Essa função é responsável por atualizar a lista de animais na interface. Ela limpa a área de exibição e insere novamente as informações dos animais cadastrados, organizando-as de maneira estruturada.
 
-#### c. **Função de Limpeza (limpar_campos)**
+  - c. **Função de Limpeza (limpar_campos)**
 
 Após o cadastro de um animal, os campos de nome, idade e detalhe são limpos para permitir que o usuário cadastre outro animal sem precisar apagar os dados manualmente.
 
-### 3. Interface Gráfica (Tkinter)
+## 3. Interface Gráfica (Tkinter)
 
 A interface é dividida em duas abas usando o widget **Notebook** do Tkinter:
 
@@ -82,7 +82,7 @@ A interface é dividida em duas abas usando o widget **Notebook** do Tkinter:
 
 A lista é automaticamente atualizada sempre que um novo animal é cadastrado.
 
-### 4. Widgets e Estilo
+## 4. Widgets e Estilo
 
 - **Label** e **Entry** são usados para capturar as informações inseridas pelo usuário.
 - **Radiobuttons** são utilizados para selecionar o tipo de animal (Cachorro ou Gato).
@@ -90,11 +90,11 @@ A lista é automaticamente atualizada sempre que um novo animal é cadastrado.
 - **Text** exibe a lista de animais cadastrados de forma clara e estruturada.
 - A interface utiliza cores como **roxo** e **cinza claro**, proporcionando um design simples e agradável.
 
-### 5. Comportamento do Aplicativo
+## 5. Comportamento do Aplicativo
 
 Quando o usuário preenche o formulário e clica em **Cadastrar**, o animal é adicionado à lista e suas informações são exibidas na aba **Lista de Animais**. A interface permite também atualizar a lista de forma automática. Caso algum campo não seja preenchido corretamente, uma mensagem de erro será exibida para o usuário.
 
-### 6. Persistência de Dados
+## 6. Persistência de Dados
 
 Este código não possui persistência de dados. Ou seja, ao fechar o programa, todos os dados cadastrados são perdidos, e ao reiniciar a aplicação, a lista de animais estará vazia.
 
