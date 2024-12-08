@@ -63,15 +63,15 @@ A função principal do código gerencia o fluxo do aplicativo, lidando com o ca
 
   - a. **Função de Cadastro (cadastrar_animal)**
 
-Quando o usuário preenche os campos de nome, idade e detalhe (que pode ser **porte** ou **raça**, dependendo do tipo de animal) e clica no botão **Cadastrar**, a função valida os dados fornecidos. Se estiver tudo correto, um objeto correspondente (Cachorro ou Gato) é criado e adicionado à lista de animais. A lista é então atualizada para refletir o novo cadastro.
+    - Quando o usuário preenche os campos de nome, idade e detalhe (que pode ser **porte** ou **raça**, dependendo do tipo de animal) e clica no botão **Cadastrar**, a função valida os dados fornecidos. Se estiver tudo correto, um objeto correspondente (Cachorro ou Gato) é criado e adicionado à lista de animais. A lista é então atualizada para refletir o novo cadastro.
 
   - b. **Função de Atualização (atualizar_lista)**
 
-Essa função é responsável por atualizar a lista de animais na interface. Ela limpa a área de exibição e insere novamente as informações dos animais cadastrados, organizando-as de maneira estruturada.
+    - Essa função é responsável por atualizar a lista de animais na interface. Ela limpa a área de exibição e insere novamente as informações dos animais cadastrados, organizando-as de maneira estruturada.
 
   - c. **Função de Limpeza (limpar_campos)**
 
-Após o cadastro de um animal, os campos de nome, idade e detalhe são limpos para permitir que o usuário cadastre outro animal sem precisar apagar os dados manualmente.
+    - Após o cadastro de um animal, os campos de nome, idade e detalhe são limpos para permitir que o usuário cadastre outro animal sem precisar apagar os dados manualmente.
 
 ## 3. Interface Gráfica (Tkinter)
 
