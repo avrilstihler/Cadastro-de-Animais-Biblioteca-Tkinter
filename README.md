@@ -1,4 +1,4 @@
-# Cadastro de Animais 🐾🐶🐱 
+# Cadastro de Animais 🐶🐱 
 
 ## Objetivo
 
