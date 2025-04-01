@@ -1,4 +1,4 @@
-# Cadastro de Animais 
+# Cadastro de Animais 🐾🐶🐱
 
 
 Este código foi criado para cadastrar e exibir animais, com informações sobre nome, idade, tipo (Cachorro ou Gato) e características específicas (Porte ou Raça). O programa é dividido em duas abas: **Cadastro** e **Lista de Animais**, e utiliza a biblioteca **Tkinter** para criar uma interface gráfica simples e intuitiva. O usuário pode cadastrar animais e visualizar a lista de forma organizada.
